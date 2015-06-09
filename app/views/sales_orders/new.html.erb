@@ -1,0 +1,56 @@
+<% provide(:title, 'New Sales Order') %>
+<h1>New Sales Order</h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for @soss, url: {action: "create"} do |f| %>
+      <%= render 'shared/error_messages' %>
+      
+      <%= f.label :due_date %>
+      <%= f.text_field :due_date, class: 'form-control' %>
+      <%= f.label :bill_to %>
+      <%= f.text_field :bill_to, class: 'form-control' %>
+      <%= f.label :requestor_name %>
+      <%= f.text_field :requestor_name, class: 'form-control' %>
+      <%= f.label :title %>
+      <%= f.text_field :title, class: 'form-control' %>
+      <%= f.label :address %>
+      <%= f.text_field :address, class: 'form-control' %>
+      <%= f.label :email %>
+      <%= f.text_field :email, class: 'form-control' %>
+      <%= f.label :origin_port %>
+      <%= f.text_field :origin_port, class: 'form-control' %>
+      <%= f.label :mode %>
+      <%= f.text_field :mode, class: 'form-control' %>
+      <%= f.label :service_level %>
+      <%= f.text_field :service_level, class: 'form-control' %>
+      <%= f.label :shipper_name %>
+      <%= f.text_field :shipper_name, class: 'form-control' %>
+      <%= f.label :shipper_address %>
+      <%= f.text_field :shipper_address, class: 'form-control' %>
+      <%= f.label :importer_of_record %>
+      <%= f.text_field :importer_of_record, class: 'form-control' %>
+      <%= f.label :customs_origin_broker %>
+      <%= f.text_field :customs_origin_broker, class: 'form-control' %>
+      <%= f.label :customs_dest_broker %>
+      <%= f.text_field :customs_dest_broker, class: 'form-control' %>
+      <%= f.label :origin_airport %>
+      <%= f.text_field :origin_airport, class: 'form-control' %>
+      <%= f.label :actual_weight %>
+      <%= f.text_field :actual_weight, class: 'form-control' %>
+      <%= f.label :uom %>
+      <%= f.text_field :uom, class: 'form-control' %>
+      <%= f.label :pcs %>
+      <%= f.text_field :pcs, class: 'form-control' %>
+      <%= f.label :dimensions_length %>
+      <%= f.text_field :dimensions_length, class: 'form-control' %>
+      <%= f.label :dimensions_width %>
+      <%= f.text_field :dimensions_width, class: 'form-control' %>
+      <%= f.label :dimensions_height %>
+      <%= f.text_field :dimensions_height, class: 'form-control' %>
+      <%= f.label :chargeable_weight %>
+      <%= f.text_field :chargeable_weight, class: 'form-control' %>
+      <%= f.submit "Create", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
