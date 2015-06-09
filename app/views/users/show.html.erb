@@ -1,0 +1,31 @@
+<% provide(:title, @user.name) %>
+<div class="row">
+  <aside class="col-md-4">
+    <section class="user_info">
+      <h1 class="user_info-header">
+        <%= gravatar_for @user %>
+        <%= @user.name %>
+      </h1>
+    </section>
+  </aside>
+</div>
+
+<div class="container lists-container">
+  <div class="header">
+  </div>
+  <div>
+    <div class="col-md-8">
+
+   </div>
+  <% if @user.id == current_user.id %>
+    <div>
+    </div>
+  <%else%>
+  <div class="btn btn-success delete follow">
+    <small>bookmark</small>
+  </div>
+  <% end %>
+</div>
+  
+
+</div>
