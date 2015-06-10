@@ -1,11 +1,11 @@
-<% provide(:title, 'New Sales Order') %>
-<h1>New Sales Order</h1>
+<% provide(:title, "Edit Soss") %>
+<h1>Update SOSS</h1>
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
-    <%= form_for @soss, url: {action: "create"} do |f| %>
+    <%= form_for(@soss) do |f| %>
       <%= render 'shared/error_messages' %>
-      
+
       <%= f.label :due_date %>
       <%= f.text_field :due_date, class: 'form-control' %>
       <%= f.label :bill_to %>
@@ -52,7 +52,8 @@
       <%= f.text_field :dimensions_height, class: 'form-control' %>
       <%= f.label :chargeable_weight %>
       <%= f.text_field :chargeable_weight, class: 'form-control' %>
-      <%= f.submit "Create", class: "btn btn-primary" %>
+      <%= f.submit "Save changes", class: "btn btn-primary" %>
     <% end %>
+
   </div>
 </div>

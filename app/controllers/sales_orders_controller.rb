@@ -44,7 +44,7 @@ class SalesOrdersController < ApplicationController
   private
 
   def soss_params
-    params.require(:sales_order).permit(:due_date, :bill_to, :requestor_name, :title, :address, :email, :origin_port, :mode, :service_level, :shipper_name, :shipper_address, :importer_of_record, :customs_origin_broker, :customs_dest_broker, :origin_airport, :actual_weight, :uom, :pcs, :dimensions_length, :dimensions_width, :dimensions_height, :chargeable_weight)
+    params.require(:sales_order).permit(:due_date, :bill_to, :requestor_name, :title, :address, :email, :origin_port, :dest_port, :mode, :service_level, :shipper_name, :shipper_address, :importer_of_record, :customs_origin_broker, :customs_dest_broker, :origin_airport, :actual_weight, :uom, :pcs, :dimensions_length, :dimensions_width, :dimensions_height, :chargeable_weight)
   end
 end
 
