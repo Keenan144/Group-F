@@ -1,0 +1,5 @@
+<%- headers = ['due_date', 'bill_to', 'requestor_name', 'title', 'address', 'email', 'origin_port', 'mode', 'service_level', 'shipper_name', 'shipper_address', 'importer_of_record', 'customs_origin_broker', 'customs_dest_broker', 'origin_airport', 'actual_weight', 'uom', 'pcs', 'dimensions_length', 'dimensions_width', 'dimensions_height', 'chargeable_weight' ] -%>
+<%= CSV.generate_line headers %>
+<%- @sosss.each do |soss| -%>
+  <%= CSV.generate_line([soss.due_date, soss.bill_to, soss.requestor_name, soss.title, soss.address, soss.email, soss.origin_port, soss.mode, soss.service_level, soss.shipper_name, soss.shipper_address, soss.importer_of_record, soss.customs_origin_broker, soss.customs_dest_broker, soss.origin_airport, soss.actual_weight, soss.uom, soss.pcs, soss.dimensions_length, soss.dimensions_width, soss.dimensions_height, soss.chargeable_weight]) %>
+<%- end -%>

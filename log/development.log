@@ -53093,3 +53093,616 @@ Processing by UsersController#show as HTML
   Rendered layouts/_header.html.erb (0.4ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-06-13 01:43:19 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header_loggedout.html.erb (0.8ms)
+Completed 500 Internal Server Error in 351ms
+
+ActionView::Template::Error (undefined method `sosss_path' for #<#<Class:0x007fae1e7aef08>:0x007fae1e7bfd30>):
+    19:       <% end %>
+    20:       <div class="yield">
+    21: 
+    22:         <%= link_to 'Download CSV list', sosss_path(format: :csv) %>
+    23:       <%= yield %>
+    24:       </div>
+    25:       <%= render 'layouts/footer' %>
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb__4203721723676104176_70192944224740'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.0ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (16.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (35.2ms)
+
+
+Started GET "/" for ::1 at 2015-06-13 01:43:44 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header_loggedout.html.erb (0.4ms)
+Completed 500 Internal Server Error in 257ms
+
+ActionView::Template::Error (undefined method `ship_sets_path' for #<#<Class:0x007fd1a1447eb8>:0x007fd1a144cf08>):
+    19:       <% end %>
+    20:       <div class="yield">
+    21: 
+    22:         <%= link_to 'Download CSV list', ship_sets_path(format: :csv) %>
+    23:       <%= yield %>
+    24:       </div>
+    25:       <%= render 'layouts/footer' %>
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb__758724008152748777_70269165495420'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.4ms)
+
+
+Started GET "/" for ::1 at 2015-06-13 01:44:17 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header_loggedout.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 280ms (Views: 272.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-9f889d8e9122a9f1b3d0797550890c5cd4bb2a97e0209b223777bec4cc53f240.css?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/friends.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/lists.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/sales_orders.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/wishes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/friends.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/sales_orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/wishes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-06-13 01:44:18 +0800
+
+
+Started GET "/sales_orders.csv" for ::1 at 2015-06-13 01:44:20 +0800
+Processing by SalesOrdersController#index as CSV
+  [1m[35mSalesOrder Load (1.0ms)[0m  SELECT  "sales_orders".* FROM "sales_orders" LIMIT 30 OFFSET 0
+  Rendered sales_orders/index.csv.erb (36.7ms)
+Completed 500 Internal Server Error in 43ms
+
+ActionView::Template::Error (undefined method `name' for #<SalesOrder:0x007ff88c11e478>):
+    1: <%- headers = ['Name', 'Email'] -%>
+    2: <%= CSV.generate_line headers %>
+    3: <%- @sosss.each do |soss| -%>
+    4:   <%= CSV.generate_line([soss.name, soss.email]) %>
+    5: <%- end -%>
+  app/views/sales_orders/index.csv.erb:4:in `block in _app_views_sales_orders_index_csv_erb___2170932477445940823_70352783318660'
+  app/views/sales_orders/index.csv.erb:3:in `_app_views_sales_orders_index_csv_erb___2170932477445940823_70352783318660'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (53.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.1ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.9ms)
+
+
+Started GET "/sales_orders.csv" for ::1 at 2015-06-13 01:44:41 +0800
+Processing by SalesOrdersController#index as CSV
+  [1m[36mSalesOrder Load (0.3ms)[0m  [1mSELECT  "sales_orders".* FROM "sales_orders" LIMIT 30 OFFSET 0[0m
+  Rendered sales_orders/index.csv.erb (3.3ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `number' for #<SalesOrder:0x007ff8910d04a8>):
+    1: <%- headers = ['Name', 'Email'] -%>
+    2: <%= CSV.generate_line headers %>
+    3: <%- @sosss.each do |soss| -%>
+    4:   <%= CSV.generate_line([soss.number, soss.pdate]) %>
+    5: <%- end -%>
+  app/views/sales_orders/index.csv.erb:4:in `block in _app_views_sales_orders_index_csv_erb___2170932477445940823_70352780953620'
+  app/views/sales_orders/index.csv.erb:3:in `_app_views_sales_orders_index_csv_erb___2170932477445940823_70352780953620'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.1ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.6ms)
+
+
+Started GET "/sales_orders.csv" for ::1 at 2015-06-13 01:45:06 +0800
+Processing by SalesOrdersController#index as CSV
+  [1m[35mSalesOrder Load (0.3ms)[0m  SELECT  "sales_orders".* FROM "sales_orders" LIMIT 30 OFFSET 0
+  Rendered sales_orders/index.csv.erb (3.6ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `pdate' for #<SalesOrder:0x007ff88c0b1148>):
+    1: <%- headers = ['Name', 'Email'] -%>
+    2: <%= CSV.generate_line headers %>
+    3: <%- @sosss.each do |soss| -%>
+    4:   <%= CSV.generate_line([soss.title, soss.pdate]) %>
+    5: <%- end -%>
+  app/views/sales_orders/index.csv.erb:4:in `block in _app_views_sales_orders_index_csv_erb___2170932477445940823_70352739042940'
+  app/views/sales_orders/index.csv.erb:3:in `_app_views_sales_orders_index_csv_erb___2170932477445940823_70352739042940'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.8ms)
+
+
+Started GET "/sales_orders.csv" for ::1 at 2015-06-13 01:45:29 +0800
+Processing by SalesOrdersController#index as CSV
+  [1m[36mSalesOrder Load (0.3ms)[0m  [1mSELECT  "sales_orders".* FROM "sales_orders" LIMIT 30 OFFSET 0[0m
+  Rendered sales_orders/index.csv.erb (2.4ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-06-13 01:53:34 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header_loggedout.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 97ms (Views: 96.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sales_orders.csv" for ::1 at 2015-06-13 01:53:35 +0800
+Processing by SalesOrdersController#index as CSV
+  [1m[35mSalesOrder Load (0.3ms)[0m  SELECT  "sales_orders".* FROM "sales_orders" LIMIT 30 OFFSET 0
+  Rendered sales_orders/index.csv.erb (3.1ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for ::1 at 2015-06-13 01:53:47 +0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (13.3ms)
+  Rendered layouts/_header_loggedout.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-06-13 01:53:49 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3UBG/yzRHvphrhJ2likZvUXygQtdqPGE5OETxTaPgbWQD54FH4dJJ3OAlyJmvWkD9k3OSqlppesMuCey+GlJMg==", "session"=>{"email"=>"keenansturtevant@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "keenansturtevant@gmail.com"]]
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header_loggedout.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 101ms (Views: 92.9ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/login" for ::1 at 2015-06-13 01:53:59 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FcdIIxMWEFWlN33M5zUCT2XaErGge0C/XVtLpGzIdbhYiJDZIEBHiLcZ+JgXoXLx1mVd8FS6FNC1An/Toi69Pw==", "session"=>{"email"=>"keenan@apptly.co", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "keenan@apptly.co"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 69ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/users/1" for ::1 at 2015-06-13 01:53:59 +0800
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 53ms (Views: 50.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sales_orders/new" for ::1 at 2015-06-13 01:54:02 +0800
+Processing by SalesOrdersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.4ms)
+  Rendered sales_orders/new.html.erb within layouts/application (11.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sales_orders" for ::1 at 2015-06-13 01:55:20 +0800
+Processing by SalesOrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q0napbYyYZb5seTTTo8eNfrqSrJEcrdVNx7WQM/c1YnmBgJfhWQ2S+ufYYe+G26LSVUF87Cz4zrfR+I3ATodDg==", "sales_order"=>{"due_date"=>"5/5/15", "bill_to"=>"keenan", "requestor_name"=>"mark", "title"=>"MUSIC", "address"=>"home", "email"=>"email", "origin_port"=>"origin", "dest_port"=>"dest", "mode"=>"mode", "service_level"=>"service", "shipper_name"=>"shippername", "shipper_address"=>"address", "importer_of_record"=>"record", "customs_origin_broker"=>"originbroker", "customs_dest_broker"=>"destbroker", "origin_airport"=>"originairport", "actual_weight"=>"actualweight", "uom"=>"uom", "pcs"=>"pcs", "dimensions_length"=>"length", "dimensions_width"=>"widthe", "dimensions_height"=>"height", "chargeable_weight"=>"weight"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "sales_orders" ("due_date", "bill_to", "requestor_name", "title", "address", "email", "origin_port", "dest_port", "mode", "service_level", "shipper_name", "shipper_address", "importer_of_record", "customs_origin_broker", "customs_dest_broker", "origin_airport", "actual_weight", "uom", "pcs", "dimensions_length", "dimensions_width", "dimensions_height", "chargeable_weight", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25) RETURNING "id"[0m  [["due_date", "5/5/15"], ["bill_to", "keenan"], ["requestor_name", "mark"], ["title", "MUSIC"], ["address", "home"], ["email", "email"], ["origin_port", "origin"], ["dest_port", "dest"], ["mode", "mode"], ["service_level", "service"], ["shipper_name", "shippername"], ["shipper_address", "address"], ["importer_of_record", "record"], ["customs_origin_broker", "originbroker"], ["customs_dest_broker", "destbroker"], ["origin_airport", "originairport"], ["actual_weight", "actualweight"], ["uom", "uom"], ["pcs", "pcs"], ["dimensions_length", "length"], ["dimensions_width", "widthe"], ["dimensions_height", "height"], ["chargeable_weight", "weight"], ["created_at", "2015-06-12 17:55:20.987089"], ["updated_at", "2015-06-12 17:55:20.987089"]]
+  [1m[35m (6.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/sales_orders/9
+Completed 302 Found in 15ms (ActiveRecord: 6.4ms)
+
+
+Started GET "/sales_orders/9" for ::1 at 2015-06-13 01:55:20 +0800
+Processing by SalesOrdersController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mSalesOrder Load (0.3ms)[0m  [1mSELECT  "sales_orders".* FROM "sales_orders" WHERE "sales_orders"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  Rendered sales_orders/show.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 108ms (Views: 106.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-06-13 01:55:25 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sales_orders.csv" for ::1 at 2015-06-13 01:55:27 +0800
+Processing by SalesOrdersController#index as CSV
+  [1m[35mSalesOrder Load (0.3ms)[0m  SELECT  "sales_orders".* FROM "sales_orders" LIMIT 30 OFFSET 0
+  Rendered sales_orders/index.csv.erb (2.9ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1" for ::1 at 2015-06-13 01:55:43 +0800
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sales_orders" for ::1 at 2015-06-13 01:55:45 +0800
+Processing by SalesOrdersController#index as HTML
+  [1m[36mSalesOrder Load (0.3ms)[0m  [1mSELECT  "sales_orders".* FROM "sales_orders" LIMIT 30 OFFSET 0[0m
+  Rendered sales_orders/_sales_order.erb (1.0ms)
+  Rendered sales_orders/index.html.erb within layouts/application (3.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 109ms (Views: 107.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sales_orders/9" for ::1 at 2015-06-13 01:55:46 +0800
+Processing by SalesOrdersController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mSalesOrder Load (0.2ms)[0m  [1mSELECT  "sales_orders".* FROM "sales_orders" WHERE "sales_orders"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  Rendered sales_orders/show.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 49ms (Views: 47.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sales_orders/9" for ::1 at 2015-06-13 01:57:26 +0800
+Processing by SalesOrdersController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mSalesOrder Load (0.2ms)[0m  [1mSELECT  "sales_orders".* FROM "sales_orders" WHERE "sales_orders"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  Rendered sales_orders/show.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 135ms (Views: 115.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/bootstrap.self-9f889d8e9122a9f1b3d0797550890c5cd4bb2a97e0209b223777bec4cc53f240.css?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/friends.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/lists.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/sales_orders.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/wishes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/friends.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/sales_orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/wishes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-06-13 01:57:26 +0800
+
+
+Started GET "/sales_orders/9.csv" for ::1 at 2015-06-13 01:57:28 +0800
+Processing by SalesOrdersController#show as CSV
+  Parameters: {"id"=>"9"}
+  [1m[36mSalesOrder Load (0.4ms)[0m  [1mSELECT  "sales_orders".* FROM "sales_orders" WHERE "sales_orders"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  Rendered sales_orders/show.csv.erb (2.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <%- headers = ['due_date', 'bill_to', 'requestor_name', 'title', 'address', 'email', 'origin_port', 'mode', 'service_level', 'shipper_name', 'shipper_address', 'importer_of_record', 'customs_origin_broker', 'customs_dest_broker', 'origin_airport', 'actual_weight', 'uom', 'pcs', 'dimensions_length', 'dimensions_width', 'dimensions_height', 'chargeable_weight' ] -%>
+    2: <%= CSV.generate_line headers %>
+    3: <%- @sosss.each do |soss| -%>
+    4:   <%= CSV.generate_line([soss.due_date, soss.bill_to, soss.requestor_name, soss.title, soss.address, soss.email, soss.origin_port, soss.mode, soss.service_level, soss.shipper_name, soss.shipper_address, soss.importer_of_record, soss.customs_origin_broker, soss.customs_dest_broker, soss.origin_airport, soss.actual_weight, soss.uom, soss.pcs, soss.dimensions_length, soss.dimensions_width, soss.dimensions_height, soss.chargeable_weight]) %>
+    5: <%- end -%>
+  app/views/sales_orders/show.csv.erb:3:in `_app_views_sales_orders_show_csv_erb__1095806669767093285_70352783347740'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.7ms)
+
+
+Started GET "/sales_orders/9.csv" for ::1 at 2015-06-13 01:57:42 +0800
+Processing by SalesOrdersController#show as CSV
+  Parameters: {"id"=>"9"}
+  [1m[35mSalesOrder Load (0.3ms)[0m  SELECT  "sales_orders".* FROM "sales_orders" WHERE "sales_orders"."id" = $1 LIMIT 1  [["id", 9]]
+  Rendered sales_orders/show.csv.erb (2.2ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `each' for #<SalesOrder:0x007ff891531330>):
+    1: <%- headers = ['due_date', 'bill_to', 'requestor_name', 'title', 'address', 'email', 'origin_port', 'mode', 'service_level', 'shipper_name', 'shipper_address', 'importer_of_record', 'customs_origin_broker', 'customs_dest_broker', 'origin_airport', 'actual_weight', 'uom', 'pcs', 'dimensions_length', 'dimensions_width', 'dimensions_height', 'chargeable_weight' ] -%>
+    2: <%= CSV.generate_line headers %>
+    3: <%- @soss.each do |soss| -%>
+    4:   <%= CSV.generate_line([soss.due_date, soss.bill_to, soss.requestor_name, soss.title, soss.address, soss.email, soss.origin_port, soss.mode, soss.service_level, soss.shipper_name, soss.shipper_address, soss.importer_of_record, soss.customs_origin_broker, soss.customs_dest_broker, soss.origin_airport, soss.actual_weight, soss.uom, soss.pcs, soss.dimensions_length, soss.dimensions_width, soss.dimensions_height, soss.chargeable_weight]) %>
+    5: <%- end -%>
+  app/views/sales_orders/show.csv.erb:3:in `_app_views_sales_orders_show_csv_erb__1095806669767093285_70352783398880'
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.0ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.2ms)
+
+
+Started GET "/sales_orders/9.csv" for ::1 at 2015-06-13 01:57:57 +0800
+Processing by SalesOrdersController#show as CSV
+  Parameters: {"id"=>"9"}
+  [1m[36mSalesOrder Load (0.2ms)[0m  [1mSELECT  "sales_orders".* FROM "sales_orders" WHERE "sales_orders"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  Rendered sales_orders/show.csv.erb (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/Users/keenansturtevant/Desktop/Group-F/app/views/sales_orders/show.csv.erb:3: syntax error, unexpected keyword_do, expecting keyword_end
+'.freeze; @soss do |soss| 
+                  ^
+/Users/keenansturtevant/Desktop/Group-F/app/views/sales_orders/show.csv.erb:6: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/sales_orders/show.csv.erb:3: syntax error, unexpected keyword_do, expecting keyword_end
+  app/views/sales_orders/show.csv.erb:6: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.0ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/keenansturtevant/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.7ms)
+
+
+Started GET "/sales_orders/9.csv" for ::1 at 2015-06-13 01:58:28 +0800
+Processing by SalesOrdersController#show as CSV
+  Parameters: {"id"=>"9"}
+  [1m[35mSalesOrder Load (0.2ms)[0m  SELECT  "sales_orders".* FROM "sales_orders" WHERE "sales_orders"."id" = $1 LIMIT 1  [["id", 9]]
+  Rendered sales_orders/show.csv.erb (0.9ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-06-13 01:58:42 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for ::1 at 2015-06-13 01:58:45 +0800
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sales_orders" for ::1 at 2015-06-13 01:58:47 +0800
+Processing by SalesOrdersController#index as HTML
+  [1m[35mSalesOrder Load (0.3ms)[0m  SELECT  "sales_orders".* FROM "sales_orders" LIMIT 30 OFFSET 0
+  Rendered sales_orders/_sales_order.erb (1.0ms)
+  Rendered sales_orders/index.html.erb within layouts/application (3.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 103ms (Views: 101.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sales_orders/1" for ::1 at 2015-06-13 01:58:48 +0800
+Processing by SalesOrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSalesOrder Load (0.1ms)[0m  SELECT  "sales_orders".* FROM "sales_orders" WHERE "sales_orders"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered sales_orders/show.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sales_orders/1/edit" for ::1 at 2015-06-13 01:58:52 +0800
+Processing by SalesOrdersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSalesOrder Load (0.2ms)[0m  SELECT  "sales_orders".* FROM "sales_orders" WHERE "sales_orders"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered sales_orders/edit.html.erb within layouts/application (7.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 57ms (Views: 55.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-06-13 01:58:54 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for ::1 at 2015-06-13 01:58:58 +0800
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"C4ejvAlWke7GLnQRCTLyeQbCrMpOzhKr+wKn2sgClvNGyHtGOgDGM9QA8UX5poLHtX3ji7oPRsQTW5OtBuRedA=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-06-13 01:58:58 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header_loggedout.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 113ms (Views: 112.5ms | ActiveRecord: 0.0ms)

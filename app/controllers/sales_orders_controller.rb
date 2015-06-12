@@ -1,11 +1,28 @@
 class SalesOrdersController < ApplicationController
+require 'csv'
 
   def index
     @sosss = SalesOrder.paginate(page: params[:page])
+
+    respond_to do |format|
+      format.html
+      format.csv do
+        headers['Content-Disposition'] = "attachment; filename=\"soss-list\""
+        headers['Content-Type'] ||= 'text/csv'
+      end
+    end
   end
   
   def show
     @soss = SalesOrder.find(params[:id])
+
+        respond_to do |format|
+        format.html
+        format.csv do
+        headers['Content-Disposition'] = "attachment; filename=\"soss-list\""
+        headers['Content-Type'] ||= 'text/csv'
+      end
+    end
   end
 
   def new

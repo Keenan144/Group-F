@@ -23,3 +23,5 @@
 <%= @soss.chargeable_weight %> <br>
 <br><br>
 <%= link_to "edit", edit_sales_order_path, class: "btn btn-warning"%>
+
+<%= link_to 'Download CSV list', sales_order_path(format: :csv) %>
