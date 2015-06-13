@@ -19,7 +19,7 @@
       <% end %>
       <div class="yield">
 
-        <%= link_to 'Download CSV list', sales_orders_path(format: :csv) %>
+        <% link_to 'Download CSV list', sales_orders_path(format: :csv) %>
       <%= yield %>
       </div>
       <%= render 'layouts/footer' %>

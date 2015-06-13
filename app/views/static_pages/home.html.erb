@@ -1,1 +1,6 @@
 <%= link_to "new sales order", new_sales_order_path %>
+<br><br>
+<% @unfinishedsosss.each do |unfinishedsosss| %>
+<%= link_to "Order number #{unfinishedsosss.id}", edit_sales_order_path(:id => unfinishedsosss.id)%>
+<br>
+<%end%>
